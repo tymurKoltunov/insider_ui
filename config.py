@@ -1,8 +1,8 @@
 import os
 
-DRIVER_NAME = "chromedriver"
+DRIVER_NAME = "chromedriver"  #"geckodriver"
 TIMEOUT = 10
 SCREENSHOT_DIR = "screenshots"
-MOBILE_DEVICE_NAME = "iPhone SE"
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
-BASE_URL = "https://m.twitch.tv/"
+BASE_URL = "https://useinsider.com"
+BASE_TIMEOUT = 10
